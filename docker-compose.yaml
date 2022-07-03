@@ -7,7 +7,6 @@ services:
         container_name: my-dashboard              
         ports:
             - "8200:80"
-        volumes:
-            - /root/my-local-conf.yml:/app/public/conf.yml
-
         restart: unless-stopped
+        
+        
